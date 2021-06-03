@@ -2,7 +2,7 @@
 Added AI functionality to identify the degree of separation between actors from the corpus.
 
 # The Algorithm
-AI was used to determine the degrees of separation between two actors, or to find the shortest path between any two actors by selecting a sequential order of movies in which they have starred. The corpus has 3 sets of data: 1. All people, 2. Movies, 3. Stars. The name of two actors is taken as input and by using the shortest path algorithm, the code searches for the common connections and returns the degree of separation between the two actors. 
+AI was used to determine the degrees of separation between two actors, or to find the shortest path between any two actors by selecting a sequential order of movies in which they have starred. The corpus has 3 sets of data: 1. All people, 2. Movies, 3. Stars. The name of two actors is taken as input and by using the Breadth First Search (BFS) shortest path algorithm, the code searches for the common connections and returns the degree of separation between the two actors. 
 
 Eg. if 
 Name1: Tom Cruise
